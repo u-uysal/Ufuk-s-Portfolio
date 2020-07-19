@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <div>
       <Head>
-        <title>My page title</title>
+        <title>Ufuk UYSAL</title>
         <meta property="og:title" content="My page title" key="title" />
         <link
           rel="stylesheet"
