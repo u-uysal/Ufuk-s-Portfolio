@@ -29,6 +29,16 @@ const projectsInfo = [
     intro:
       "React Form Validation is an app that user inputs own information for a random application",
   },
+  {
+    id: 4,
+    src: "/todo.png",
+    alt: "To do list",
+    projectName: "React Todo List",
+    sourceCodeLink: "https://github.com/u-uysal/TodoList",
+    liveModeLink: "https://u-uysal.github.io/TodoList/",
+    intro:
+      "By using this app, you can add work to do , update this works and delete after completion",
+  },
 ];
 
 export default projectsInfo;
