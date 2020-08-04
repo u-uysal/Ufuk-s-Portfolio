@@ -117,32 +117,25 @@ function About() {
                 <div className="col-md-6">
                   <div className="about-me pt-4 pt-md-0">
                     <div className="title-box-2">
-                      <h5 className="title-left">About me</h5>
+                      <h5 className="title-left text-info">About me</h5>
                     </div>
                     <p className="text-primary font-weight-light">
-                      I am a front end web developer who lives in the beautiful
-                      city of Belgium, Hasselt. I'm 27 years old. Married and no
-                      kids. I am a lifelong learner. I really enjoy solving
-                      problems as well as making things pretty and easy to use.
-                      I can't stop learning new things; the more, the better. I
-                      also love playing table tennis and volleyball,
+                      Hi I am Ufuk. I’m a Front End web developer, working
+                      mainly on user-friendly apps. I have an Electronic
+                      Engineering background from a military academy. I recently
+                      shifted my focus entirely to Computer Engineering. I love
+                      algorithms, programming, and graphic design. I have been
+                      following courses and training on several subjects
+                      including Javascript, web development.
                     </p>
                     <p className="text-primary font-weight-light">
-                      Also ; <br />
-                      • Military academy education with a minor in Electrical
-                      Engineering. <br />
-                      • Fully focused on IT since 5/2019. <br />
-                      • 4 years of experience in management and service, in
-                      military and civilian environments. <br />• High stamina
-                      to work under pressing deadlines and schedules.
-                    </p>
+                    Another reason why I like this field is the impact you can make with the created solutions on everyone's everyday live and the difference that a smooth team collaboration can make.
                     <p className="text-primary font-weight-light">
-                      For the front-end I usually work with Javascript, either
-                      standalone or including popular frameworks like ReactJS I
-                      also make the web pretty by using Sass, CSS3 and, whenever
-                      needed, any of their friends: Bootstrap, Tailwind Css,
+                    I have a unique background: in addition to technical knowledge, I was educated and then worked as an officer in a military environment. I proved to be a skilled team organizer and manager. Programming is almost always teamwork and I know all about how to behave in that environment.
                       etc.
                     </p>
+                    <p className="text-primary font-weight-light">
+Currently, I am working as a freelancer and developing smaller-scale projects. However, I am looking forward to moving into larger-scale and bigger-team projects.I can start my career with either BIST or IBO contract. I would be delighted if you review my resume and consider me for an interview. </p>
                   </div>
                 </div>
               </div>
