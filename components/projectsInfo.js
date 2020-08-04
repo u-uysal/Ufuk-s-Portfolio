@@ -39,6 +39,16 @@ const projectsInfo = [
     intro:
       "By using this app, you can add work to do , update this works and delete after completion",
   },
+  {
+    id: 5,
+    src: "/four-card.png",
+    alt: "Four Card Application",
+    projectName: "Four Cards Challenge",
+    sourceCodeLink: "https://github.com/u-uysal/four-card",
+    liveModeLink: "https://u-uysal.github.io/four-card/",
+    intro:
+      "Four Card Challenge is built by using HTML5-CSS3 ",
+  },
 ];
 
 export default projectsInfo;
