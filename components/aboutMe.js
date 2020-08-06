@@ -129,13 +129,27 @@ function About() {
                       including Javascript, web development.
                     </p>
                     <p className="text-primary font-weight-light">
-                    Another reason why I like this field is the impact you can make with the created solutions on everyone's everyday live and the difference that a smooth team collaboration can make.
-                    <p className="text-primary font-weight-light">
-                    I have a unique background: in addition to technical knowledge, I was educated and then worked as an officer in a military environment. I proved to be a skilled team organizer and manager. Programming is almost always teamwork and I know all about how to behave in that environment.
-                      etc.
+                      Another reason why I like this field is the impact you can
+                      make with the created solutions on everyone's everyday
+                      live and the difference that a smooth team collaboration
+                      can make.
                     </p>
                     <p className="text-primary font-weight-light">
-Currently, I am working as a freelancer and developing smaller-scale projects. However, I am looking forward to moving into larger-scale and bigger-team projects.I can start my career with either BIST or IBO contract. I would be delighted if you review my resume and consider me for an interview. </p>
+                      I have a unique background: in addition to technical
+                      knowledge, I was educated and then worked as an officer in
+                      a military environment. I proved to be a skilled team
+                      organizer and manager. Programming is almost always
+                      teamwork and I know all about how to behave in that
+                      environment. etc.
+                    </p>
+                    <p className="text-primary font-weight-light">
+                      Currently, I am working as a freelancer and developing
+                      smaller-scale projects. However, I am looking forward to
+                      moving into larger-scale and bigger-team projects.I can
+                      start my career with either BIST or IBO contract. I would
+                      be delighted if you review my resume and consider me for
+                      an interview.
+                    </p>
                   </div>
                 </div>
               </div>
