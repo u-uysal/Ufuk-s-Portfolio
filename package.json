@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "This portfolio template is created by [NextJs](https://nextjs.org/),[React Bootstrap](https://react-bootstrap.github.io/) and [Bootstrap](https://getbootstrap.com/)",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -17,5 +17,14 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u-uysal/Ufuk-s-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/u-uysal/Ufuk-s-Portfolio/issues"
+  },
+  "homepage": "https://github.com/u-uysal/Ufuk-s-Portfolio#readme"
 }
