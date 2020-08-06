@@ -46,8 +46,17 @@ const projectsInfo = [
     projectName: "Four Cards Challenge",
     sourceCodeLink: "https://github.com/u-uysal/four-card",
     liveModeLink: "https://u-uysal.github.io/four-card/",
+    intro: "Four Card Challenge is built by using HTML5-CSS3 ",
+  },
+  {
+    id: 6,
+    src: "/covid.png",
+    alt: "Covid-19",
+    projectName: "Covid Tracker App",
+    sourceCodeLink: "https://github.com/u-uysal/covid-tracker-app",
+    liveModeLink: "https://u-uysal.github.io/covid-tracker-app/",
     intro:
-      "Four Card Challenge is built by using HTML5-CSS3 ",
+      "The main purpose of this project is to provide accurate information to those who want to get information about Covid -19.",
   },
 ];
 
