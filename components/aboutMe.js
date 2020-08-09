@@ -1,6 +1,15 @@
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { DiBootstrap } from "react-icons/di";
+import { DiJqueryLogo } from "react-icons/di";
+import { DiJavascript1 } from "react-icons/di";
+import { DiReact } from "react-icons/di";
+import { DiNodejsSmall } from "react-icons/di";
+import { DiMysql } from "react-icons/di";
+
 function About() {
   return (
-    <section id="about" className="about-mf sect-pt4 route">
+    <section id="about" className="mt-5">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
@@ -17,93 +26,67 @@ function About() {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-6 col-md-7">
-                      <div className="about-info">
-                        <p>
-                          <span className="title-s">
-                            Name:
-                            <span className="text-primary font-weight-light">
-                              Ufuk UYSAL
-                            </span>
-                          </span>
+                    <div className="col-sm-6 d-flex justify-content-center align-items-center col-md-7">
+                      <div className="">
+                        <p className="font-weight-bold">Ufuk UYSAL</p>
+                        <p className=" font-weight-bold">
+                          Front End Web Developer
                         </p>
-                        <p>
-                          <span className="title-s">
-                            Profile:
-                            <span className="text-primary font-weight-light">
-                              Front End Web Developer
-                            </span>
-                          </span>
+                        <p className=" font-weight-bold">
+                          ufuk.uysl5@gmail.com
                         </p>
-                        <p>
-                          <span className="title-s">
-                            Email:
-                            <span className="text-primary font-weight-light">
-                              ufuk.uysl5@gmail.com
-                            </span>
-                          </span>
-                        </p>
-                        <p>
-                          <span className="title-s">
-                            Phone:
-                            <span className="text-primary font-weight-light">
-                              +32 487 63 78 42
-                            </span>
-                          </span>
-                        </p>
+                        <p className=" font-weight-bold">+32 487 63 78 42</p>
                       </div>
                     </div>
                   </div>
-                  <div className="skill-mf">
-                    <p className="title-s">Skill</p>
-                    <span>HTML5</span> <span className="pull-right">100%</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        style={{ width: "100%" }}
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
+                  <div className="mt-5">
+                    <div
+                      id="skils"
+                      className="d-flex flex-wrap justify-content-center align-items-center mt-3 mb-5"
+                    >
+                      <span>
+                        <AiFillHtml5 id="icons" size="3rem" />
+                        <p>HTML5</p>
+                      </span>
+                      <span>
+                        <DiCss3 id="icons" size="3rem" />
+                        <p>CSS3</p>
+                      </span>
+                      <span>
+                        <DiBootstrap id="icons" size="3rem" />
+                        <p>BS-4</p>
+                      </span>
+                      <span>
+                        <DiJqueryLogo id="icons" size="3rem" />
+                        <p>Jquery</p>
+                      </span>
                     </div>
-                    <span>CSS3,Tailwind CSS,Bootstrap 4</span>
-                    <span className="pull-right">95%</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        style={{ width: "95%" }}
-                        aria-valuenow="95"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
+                    <div
+                      id="skils"
+                      className="d-flex flex-wrap justify-content-center align-items-center mb-5"
+                    >
+                      <span>
+                        <DiJavascript1 id="icons" size="3rem" />
+                        <p>Jscript</p>
+                      </span>
+                      <span>
+                        <DiReact id="icons" size="3rem" />
+                        <p>ReactJs</p>
+                      </span>
+                      <span>
+                        <DiNodejsSmall id="icons" size="3rem" />
+                        <p>NodeJs</p>
+                      </span>
+                      <span>
+                        <DiMysql id="icons" size="3rem" />
+                        <p>Mysql</p>
+                      </span>
                     </div>
-                    <span>Vanilla JS,ES6</span>
-                    <span className="pull-right">90%</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        style={{ width: "90%" }}
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <span>ReactjS,Redux</span>
-                    <span className="pull-right">80%</span>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        style={{ width: "80%" }}
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                    <button>
+                    <div
+                      id="skils"
+                      className="d-flex flex-wrap justify-content-center align-items-center mb-5"
+                    >
+                      {" "}
                       <a
                         id="profile-link"
                         href="https://u-uysal.github.io/Resume/"
@@ -111,15 +94,16 @@ function About() {
                       >
                         To see more and my resume ,click here
                       </a>
-                    </button>
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-6">
-                  <div className="about-me pt-4 pt-md-0">
-                    <div className="title-box-2">
-                      <h5 className="title-left text-info">About me</h5>
+                  <div className="pt-4 pt-md-0">
+                    <div className="">
+                      <h5 className="font-weight-bold text-center">About me</h5>
+                      <hr></hr>
                     </div>
-                    <p className="text-primary font-weight-light">
+                    <p className="font-weight-bold">
                       Hi I am Ufuk. I’m a Front End web developer, working
                       mainly on user-friendly apps. I have an Electronic
                       Engineering background from a military academy. I recently
@@ -128,13 +112,13 @@ function About() {
                       following courses and training on several subjects
                       including Javascript, web development.
                     </p>
-                    <p className="text-primary font-weight-light">
+                    <p className=" font-weight-bold">
                       Another reason why I like this field is the impact you can
                       make with the created solutions on everyone's everyday
                       live and the difference that a smooth team collaboration
                       can make.
                     </p>
-                    <p className="text-primary font-weight-light">
+                    <p className=" font-weight-bold">
                       I have a unique background: in addition to technical
                       knowledge, I was educated and then worked as an officer in
                       a military environment. I proved to be a skilled team
@@ -142,7 +126,7 @@ function About() {
                       teamwork and I know all about how to behave in that
                       environment. etc.
                     </p>
-                    <p className="text-primary font-weight-light">
+                    <p className=" font-weight-bold">
                       Currently, I am working as a freelancer and developing
                       smaller-scale projects. However, I am looking forward to
                       moving into larger-scale and bigger-team projects.I can

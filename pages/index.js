@@ -1,6 +1,6 @@
 const { default: Navbar } = require("../components/navbar");
 import Head from "next/head";
-import Home from "../components/home";
+
 import About from "../components/aboutMe";
 import Footer from "../components/footer";
 import ProjectsData from "../components/projectsData";
@@ -22,17 +22,19 @@ function HomePage() {
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Head>
         <meta property="og:title" content="My new title" key="title" />
       </Head>
 
       <Navbar></Navbar>
-      <Home></Home>
+
       <About></About>
-      <h3 className="text-center font-weight-bold mb-5 text-primary">
-        MY PROJECTS
-      </h3>
+      <h3 className="text-center font-weight-bold mb-5 ">MY PROJECTS</h3>
       <ProjectsData></ProjectsData>
       <Footer></Footer>
     </div>

@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="mt-3 bg-dark ">
-      <div id="contact" className="row cover bottom h-100">
+    <footer className="mt-3 ">
+      <div id="contact" className="bottom h-100">
         <div className="text-center contact-social-icons">
-          <ul className="centered">
+          <ul className="">
             <a href="mailto:ufuk.uysl5@gmail.com" target="_blank">
               <li>
                 <i className="fa fa-envelope"></i>Gmail
