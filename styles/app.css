@@ -67,6 +67,10 @@ body {
   display: inline-block;
   padding: 2%;
 }
+#carouselPart {
+  background-color: #611f69;
+  color: #fff;
+}
 
 @media (min-width: 768px) {
   .box-shadow-full {
