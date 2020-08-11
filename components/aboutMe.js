@@ -89,7 +89,7 @@ function About() {
                       {" "}
                       <a
                         id="profile-link"
-                        href="https://u-uysal.github.io/Resume/"
+                        href="https://u-uysal.github.io/Resume/index.html"
                         target="_blank"
                       >
                         To see more and my resume ,click here
