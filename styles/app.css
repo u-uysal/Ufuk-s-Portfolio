@@ -1,18 +1,16 @@
 body {
-  font-family: "Balsamiq Sans", cursive;
-  color: #611f69;
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", cursive;
 }
 
 #profile-link {
   transition: all 0.5s ease-in-out;
   border-radius: 20px;
   color: #fff;
-  background-color: #611f69;
+  background-color: rgb(0, 121, 107);
 }
 #profile-link:hover {
   border-radius: 20px;
-  color: #611f69;
+  color: rgb(0, 121, 107);
   background-color: #fff;
 }
 .bg-image {
@@ -49,7 +47,7 @@ body {
 }
 
 #contact {
-  background-color: #611f69;
+  background-color: rgb(0, 121, 107);
   display: flex;
   justify-content: center;
   height: 130px;
@@ -68,7 +66,7 @@ body {
   padding: 2%;
 }
 #carouselPart {
-  background-color: #611f69;
+  background-color: rgb(0, 121, 107);
   color: #fff;
 }
 
@@ -85,9 +83,9 @@ body {
 }
 
 #skils p {
-  color: #611f69;
+  color: black;
 }
 #icons {
-  color: #611f69;
+  color: rgb(0, 121, 107);
   margin-right: 1rem;
 }

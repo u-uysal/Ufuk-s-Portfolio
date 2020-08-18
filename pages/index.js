@@ -23,12 +23,9 @@ function HomePage() {
           crossorigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap"
           rel="stylesheet"
-        />
-      </Head>
-      <Head>
-        <meta property="og:title" content="My new title" key="title" />
+        ></link>
       </Head>
 
       <Navbar></Navbar>
