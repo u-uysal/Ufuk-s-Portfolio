@@ -58,7 +58,7 @@ var projectsInfo = [{
   alt: "Quotes",
   projectName: "Quote Generator App",
   sourceCodeLink: "https://github.com/u-uysal/Queto-Generator",
-  liveModeLink: "https://u-uysal.github.io/Queto-Generator/index.html",
+  liveModeLink: "https://queto-generator.vercel.app/",
   intro: "By using Quteos API, You can see nice quotes from famous persons and share your twitter"
 }];
 var _default = projectsInfo;
