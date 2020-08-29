@@ -124,7 +124,7 @@ function About() {
                       a military environment. I proved to be a skilled team
                       organizer and manager. Programming is almost always
                       teamwork and I know all about how to behave in that
-                      environment. etc.
+                      environment.
                     </p>
                     <p className=" font-weight-bold">
                       Currently, I am working as a freelancer and developing
