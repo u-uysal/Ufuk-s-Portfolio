@@ -1,11 +1,13 @@
-const projectsInfo = [{
+const projectsInfo = [
+  {
     id: 1,
     src: "/dance.png",
     alt: "A couple are dancing",
     projectName: "Dance With Me",
     sourceCodeLink: "https://github.com/Mert1980/DanceWithMe",
     liveModeLink: "https://hyf-class6-dancewithme.herokuapp.com/",
-    intro: "Dance-With-Me application matches the users in accordance with their preferences (location, gender, age, weight and height) and show the events in which they can enjoy together.",
+    intro:
+      "Dance-With-Me application matches the users in accordance with their preferences (location, gender, age, weight and height) and show the events in which they can enjoy together.",
   },
   {
     id: 2,
@@ -14,7 +16,8 @@ const projectsInfo = [{
     projectName: "Github Cards App",
     sourceCodeLink: "https://github.com/u-uysal/github-card-app",
     liveModeLink: "https://u-uysal.github.io/github-card-app/",
-    intro: "Github cards app finds GitHub user according to user name by using Github API",
+    intro:
+      "Github cards app finds GitHub user according to user name by using Github API",
   },
   {
     id: 3,
@@ -23,7 +26,8 @@ const projectsInfo = [{
     projectName: "React Form Validation",
     sourceCodeLink: "https://github.com/u-uysal/Form-Validation",
     liveModeLink: "https://u-uysal.github.io/Form-Validation/index.html",
-    intro: "React Form Validation is an app that user inputs own information for a random application",
+    intro:
+      "React Form Validation is an app that user inputs own information for a random application",
   },
   {
     id: 4,
@@ -32,7 +36,8 @@ const projectsInfo = [{
     projectName: "React Todo List",
     sourceCodeLink: "https://github.com/u-uysal/TodoList",
     liveModeLink: "https://u-uysal.github.io/TodoList/",
-    intro: "By using this app, you can add work to do , update this works and delete after completion",
+    intro:
+      "By using this app, you can add work to do , update this works and delete after completion",
   },
   {
     id: 5,
@@ -50,7 +55,8 @@ const projectsInfo = [{
     projectName: "Covid Tracker App",
     sourceCodeLink: "https://github.com/u-uysal/covid-tracker-app",
     liveModeLink: "https://u-uysal.github.io/covid-tracker-app/",
-    intro: "The main purpose of this project is to provide accurate information to those who want to get information about Covid -19.",
+    intro:
+      "The main purpose of this project is to provide accurate information to those who want to get information about Covid -19.",
   },
   {
     id: 7,
@@ -59,7 +65,18 @@ const projectsInfo = [{
     projectName: "Quote Generator App",
     sourceCodeLink: "https://github.com/u-uysal/Queto-Generator",
     liveModeLink: "https://queto-generator.vercel.app/",
-    intro: "By using Quteos API, You can see nice quotes from famous persons and share your twitter",
+    intro:
+      "By using Quteos API, You can see nice quotes from famous persons and share your twitter",
+  },
+  {
+    id: 8,
+    src: "/bookmark.png",
+    alt: "Bookmark",
+    projectName: "Bookmarks App",
+    sourceCodeLink: "https://github.com/u-uysal/Bookmark.git",
+    liveModeLink: "https://bookmark-six.vercel.app/",
+    intro:
+      "Bookmark all links you encounter while surfing the web and read whenever you want",
   },
 ];
 
