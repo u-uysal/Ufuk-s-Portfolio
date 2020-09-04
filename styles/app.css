@@ -7,6 +7,7 @@ body {
   border-radius: 20px;
   color: #fff;
   background-color: rgb(0, 121, 107);
+  padding: 10px;
 }
 #profile-link:hover {
   border-radius: 20px;
