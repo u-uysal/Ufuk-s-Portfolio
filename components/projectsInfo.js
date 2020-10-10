@@ -78,6 +78,16 @@ const projectsInfo = [
     intro:
       "Bookmark all links you encounter while surfing the web and read whenever you want",
   },
+  {
+    id: 9,
+    src: "/messenger.png",
+    alt: "Messenger App",
+    projectName: "Messenger App",
+    sourceCodeLink: "https://github.com/u-uysal/messenger-clone",
+    liveModeLink: "https://messenger-clone-ab55f.web.app/",
+    intro:
+      "Thanks to this application, the user can chat with the person whoever they want, even if they are online later, they can review the messages again, as the previous messages are saved in the database, and delete the messages they do not want.",
+  },
 ];
 
 export default projectsInfo;
