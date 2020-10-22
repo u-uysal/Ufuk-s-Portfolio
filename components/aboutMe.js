@@ -126,14 +126,20 @@ function About() {
                       teamwork and I know all about how to behave in that
                       environment.
                     </p>
+
                     <p className=" font-weight-bold">
-                      Currently, I am working as a freelancer and developing
+                      Currently, I am working as a freelancer , making videos about Front End  for my youtube channel  and developing
                       smaller-scale projects. However, I am looking forward to
                       moving into larger-scale and bigger-team projects.I can
                       start my career with either BIST or IBO contract. I would
                       be delighted if you review my resume and consider me for
                       an interview.
                     </p>
+                    <p className=" font-weight-bold">
+                      I kindly invite you to surf to one of my 85+ YouTube tutorials.
+                      <a target="_blank" href="https://www.youtube.com/channel/UCm1tKKCDpcynlZYu-wVO36w">  Click here!</a>
+                    </p>
+
                   </div>
                 </div>
               </div>
