@@ -1,6 +1,39 @@
 const projectsInfo = [
   {
     id: 1,
+    src: "/imessage.png",
+    alt: "Imessage app",
+    projectName: "iMessage",
+    sourceCodeLink: "https://github.com/u-uysal/iMessage",
+    liveModeLink: "https://imessage-2dcd5.web.app/",
+    intro:
+      "A user logs in directly with google authentication and can create multiple chat channels.",
+  },
+
+  {
+    id: 2,
+    src: "/covid.png",
+    alt: "Covid-19",
+    projectName: "Covid Tracker App",
+    sourceCodeLink: "https://github.com/u-uysal/covid-tracker-app",
+    liveModeLink: "https://u-uysal.github.io/covid-tracker-app/",
+    intro:
+      "The main purpose of this project is to provide accurate information to those who want to get information about Covid -19.",
+  },
+
+  {
+    id: 3,
+    src: "/messenger.png",
+    alt: "Messenger App",
+    projectName: "Messenger App",
+    sourceCodeLink: "https://github.com/u-uysal/messenger-clone",
+    liveModeLink: "https://messenger-clone-ab55f.web.app/",
+    intro:
+      "Thanks to this application, the user can chat with the person whoever they want, even if they are online later, they can review the messages again, as the previous messages are saved in the database, and delete the messages they do not want.",
+  },
+
+  {
+    id: 4,
     src: "/dance.png",
     alt: "A couple are dancing",
     projectName: "Dance With Me",
@@ -10,66 +43,7 @@ const projectsInfo = [
       "Dance-With-Me application matches the users in accordance with their preferences (location, gender, age, weight and height) and show the events in which they can enjoy together.",
   },
   {
-    id: 2,
-    src: "/cards.png",
-    alt: "Github interface",
-    projectName: "Github Cards App",
-    sourceCodeLink: "https://github.com/u-uysal/github-card-app",
-    liveModeLink: "https://u-uysal.github.io/github-card-app/",
-    intro:
-      "Github cards app finds GitHub user according to user name by using Github API",
-  },
-  {
-    id: 3,
-    src: "/form.png",
-    alt: "Sign up form",
-    projectName: "React Form Validation",
-    sourceCodeLink: "https://github.com/u-uysal/Form-Validation",
-    liveModeLink: "https://u-uysal.github.io/Form-Validation/index.html",
-    intro:
-      "React Form Validation is an app that user inputs own information for a random application",
-  },
-  {
-    id: 4,
-    src: "/todo.png",
-    alt: "To do list",
-    projectName: "React Todo List",
-    sourceCodeLink: "https://github.com/u-uysal/TodoList",
-    liveModeLink: "https://u-uysal.github.io/TodoList/",
-    intro:
-      "By using this app, you can add work to do , update this works and delete after completion",
-  },
-  {
     id: 5,
-    src: "/four-card.png",
-    alt: "Four Card Application",
-    projectName: "Four Cards Challenge",
-    sourceCodeLink: "https://github.com/u-uysal/four-card",
-    liveModeLink: "https://u-uysal.github.io/four-card/",
-    intro: "Four Card Challenge is built by using HTML5-CSS3 ",
-  },
-  {
-    id: 6,
-    src: "/covid.png",
-    alt: "Covid-19",
-    projectName: "Covid Tracker App",
-    sourceCodeLink: "https://github.com/u-uysal/covid-tracker-app",
-    liveModeLink: "https://u-uysal.github.io/covid-tracker-app/",
-    intro:
-      "The main purpose of this project is to provide accurate information to those who want to get information about Covid -19.",
-  },
-  {
-    id: 7,
-    src: "/quote.png",
-    alt: "Quotes",
-    projectName: "Quote Generator App",
-    sourceCodeLink: "https://github.com/u-uysal/Queto-Generator",
-    liveModeLink: "https://queto-generator.vercel.app/",
-    intro:
-      "By using Quteos API, You can see nice quotes from famous persons and share your twitter",
-  },
-  {
-    id: 8,
     src: "/bookmark.png",
     alt: "Bookmark",
     projectName: "Bookmarks App",
@@ -78,16 +52,20 @@ const projectsInfo = [
     intro:
       "Bookmark all links you encounter while surfing the web and read whenever you want",
   },
+
+
   {
-    id: 9,
-    src: "/messenger.png",
-    alt: "Messenger App",
-    projectName: "Messenger App",
-    sourceCodeLink: "https://github.com/u-uysal/messenger-clone",
-    liveModeLink: "https://messenger-clone-ab55f.web.app/",
+    id: 6,
+    src: "/quote.png",
+    alt: "Quotes",
+    projectName: "Quote Generator App",
+    sourceCodeLink: "https://github.com/u-uysal/Queto-Generator",
+    liveModeLink: "https://queto-generator.vercel.app/",
     intro:
-      "Thanks to this application, the user can chat with the person whoever they want, even if they are online later, they can review the messages again, as the previous messages are saved in the database, and delete the messages they do not want.",
+      "By using Quteos API, You can see nice quotes from famous persons and share your twitter",
   },
+
+
 ];
 
 export default projectsInfo;
