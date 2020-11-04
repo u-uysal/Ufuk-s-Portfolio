@@ -11,7 +11,7 @@ function ProjectsData(props) {
         <Col sm={6}>
           <img
             className="d-block w-100"
-            style={{ width: "300px", height: "300px" }}
+            style={{ width: "300px", height: "400px" }}
             src={project.src}
             alt={project.alt}
           />
@@ -24,6 +24,7 @@ function ProjectsData(props) {
           <div className="">
             <h3 className="text-center mb-3">{project.projectName}</h3>
             <p className="text-center mb-5">{project.intro}</p>
+            <p className="text-center mb-5"><i><b>Technology-Tool-Stack</b></i> <hr /> {project.tools}</p>
             <div className=" d-flex justify-content-center align-items-center">
               <a
                 target="_blank"
