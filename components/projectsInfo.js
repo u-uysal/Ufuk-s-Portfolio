@@ -48,6 +48,17 @@ const projectsInfo = [
   },
   {
     id: 5,
+    src: "/quiz.png",
+    alt: "quiz app's questions ",
+    projectName: "Quiz App",
+    sourceCodeLink: "https://github.com/u-uysal/QuizApp-React-Typescript",
+    liveModeLink: "https://quiz-app-react-typescript.vercel.app/",
+    tools: "React-Typescript-Styled Components",
+    intro:
+      "With this application, you will find the opportunity to test your knowledge in different categories. Keep having fun with different questions each time.",
+  },
+  {
+    id: 6,
     src: "/bookmark.png",
     alt: "Bookmark",
     projectName: "Bookmarks App",
@@ -60,7 +71,7 @@ const projectsInfo = [
 
 
   {
-    id: 6,
+    id: 7,
     src: "/quote.png",
     alt: "Quotes",
     projectName: "Quote Generator App",
