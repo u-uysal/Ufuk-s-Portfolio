@@ -4,7 +4,7 @@ function NavbarMenu() {
   return (
     <div>
       <Navbar fixed="top" bg="light" expand="lg">
-        <Navbar.Brand className="ml-3" href="#home">
+        <Navbar.Brand className="ml-3 " href="#home">
           Ufuk UYSAL
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

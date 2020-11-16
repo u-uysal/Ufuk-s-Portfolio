@@ -21,21 +21,21 @@ function About() {
                       <div className="about-img">
                         <img
                           src="/ufuk_uysal.jpg"
-                          className="img-fluid rounded b-shadow-a"
+                          className="img-fluid image-effect rounded-circle"
                           alt="My photo"
                         />
                       </div>
                     </div>
                     <div className="col-sm-6 d-flex justify-content-center align-items-center col-md-7">
                       <div className="">
-                        <p className="font-weight-bold">Ufuk UYSAL</p>
-                        <p className=" font-weight-bold">
+                        <p className="font-weight-bold text-effect">Ufuk UYSAL</p>
+                        <p className=" font-weight-bold text-effect">
                           Front End Web Developer
                         </p>
-                        <p className=" font-weight-bold">
+                        <p className=" font-weight-bold text-effect">
                           ufuk.uysl5@gmail.com
                         </p>
-                        <p className=" font-weight-bold">+32 487 63 78 42</p>
+                        <p className=" font-weight-bold text-effect">+32 487 63 78 42</p>
                       </div>
                     </div>
                   </div>
